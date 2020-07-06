@@ -12,3 +12,8 @@ This function displays a Wordpress pagination using Bootstrap 4 as frontend.
 This function returns a Wordpress title tag.
  - Put the function *as_title(){...}* in your **functions.php** theme file;
  - Call the function *as_title();* in the **header.php** inside <title></title> tag.
+
+## as_excerpt()
+This function returns a Wordpress post excerpt.
+ - Put the function as_excerpt(){...} in your functions.php theme file;
+ - Call the function as_excerpt(); in the category.php, search.php or where you wanto to show the text.
