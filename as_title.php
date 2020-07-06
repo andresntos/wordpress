@@ -1,8 +1,8 @@
 <?php
 /**
  *  This function returns a Wordpress title tag.
- *  - Put the function as_title(){...} in your functions.php theme file;
- *  - Call the function as_title(); in the header.php inside <title></title> tag.
+ *  - Put the function as_title(){...} into functions.php theme file;
+ *  - Call the function as_title(); into header.php inside <title></title> tag.
  * 
  * @param none
  * @return string
