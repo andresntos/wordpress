@@ -1,8 +1,8 @@
 <?php
 /**
  *  This function returns a Wordpress post excerpt.
- *  - Put the function as_excerpt(){...} in your functions.php theme file;
- *  - Call the function as_excerpt(); in the category.php, search.php or where you wanto to show the text.
+ *  - Put the function as_excerpt(){...} into functions.php theme file;
+ *  - Call the function as_excerpt(); into category.php, search.php or where you wanto to show the text.
  * 
  * @param integer $words: Total of words to show in output text.
  * @return void
