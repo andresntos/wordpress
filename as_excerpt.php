@@ -1,6 +1,6 @@
 <?php
 /**
- *  This function returns a Wordpress title tag.
+ *  This function returns a Wordpress post excerpt.
  *  - Put the function as_excerpt(){...} in your functions.php theme file;
  *  - Call the function as_excerpt(); in the category.php, search.php or where you wanto to show the text.
  * 
