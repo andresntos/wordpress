@@ -1,6 +1,6 @@
 <?php
 /**
- *  This function displays a Wordpress pagination using Bootstrap 4 as frontend.
+ *  This function displays a Wordpress pagination using Bootstrap 4.
  *  - Put the function as_pagination(){...} into functions.php theme file;
  *  - Call the function as_pagination(); into category.php, search.php or where you wanto to see the pagination buttons.
  * 
