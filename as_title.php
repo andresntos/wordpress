@@ -19,8 +19,10 @@ function as_title(){
         return 'Archive: ' . get_the_time('F') . ' de ' . get_the_time('Y') . ' | ' . get_bloginfo('name'); 
     }elseif( is_year() ) {
         return 'Archive: ' . get_the_time('Y') . ' | ' . get_bloginfo('name');
-    }elseif( is_tag() || is_author() ) {
+    }elseif( is_tag() ) {
         return 'Archive: ' . single_cat_title('',false) . ' | ' . get_bloginfo('name');
+    }elseif( is_author() ) {
+        return 'Archive: ' . get_author_name() . ' | ' . get_bloginfo('name');
     }elseif( is_search() ){
         global $s;
         return 'Search: ' . $s . ' | ' . get_bloginfo('name');
